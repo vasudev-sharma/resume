@@ -1,0 +1,266 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage{verbatim}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+
+\begin{document}
+
+
+
+\begin{center}
+    {\Huge \scshape Vasudev Sharma} \\ \vspace{1pt}
+    Toronto, Canada \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 647-533-4447 ~ \href{mailto:vasu@cs.toronto.edu}{\raisebox{-0.2\height}\faEnvelope\  \underline{vasu@cs.toronto.edu}} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/vasudev-sharma-}}  ~
+    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/vasudev-sharma}}
+    \vspace{-8pt}
+\end{center}
+
+% -----------SUMMARY --------------
+\begin{comment}
+    \section{Summary}
+    An open source contributor with one 1-year experience as a Machine Learning Engineer
+\end{comment}
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University Of Toronto}{Sep. 2021 -- Present}
+      {Master of Science in Applied Computing (Computer Science)}{Toronto, Canada}
+    \resumeSubheading
+        {VIT University}{Sep. 2016 - June 2020}
+        {B.Tech in Computer Science}{Vellore, India}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-10pt, parsep=15pt]
+                \item\small Machine Learning (Audit)
+                \item\small ML in Healthcare
+                \item Information Visualization
+                \item Computer Vision 
+                \item Deep Learning
+                \item \small Natural Language Computing
+            \end{itemize}
+        \end{multicols}
+        \vspace*{1.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {University of Toronto}{Sept 2021 -- Present}
+      {Teaching Assistant}{Toronto, Canada}
+      \resumeItemListStart
+        \resumeItem{TAing the course \href{http://www.brianharrington.net/}{CSCA20: Introduction to programming}.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {NeuroPoly, University of Montreal}{Nov 2020 -- August 2021}
+      {Machine Learning Engineer}{Montreal, Quebec, Canada}
+      \resumeItemListStart
+        \resumeItem {Developed an open source software     \href{https://github.com/neuropoly/axondeepseg}{AxonDeepSeg} - Axon / Myelin segmentation using Deep Learning.}
+         \resumeItem {Implemented and integrated U-Net model for segmentation on Keras framework for histological data ( SEM and TEM).}
+        \resumeItem {Fine-tuned models resulting in a performance gain of 5\%, refactored 40\% codebase and performed an exhaustive comparative analysis with state-of-art methods.}
+        \resumeItem {Researched and incorporated dynamic functionality for handling overlapping patch effect on microscopy images}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {CNRS, CerCo lab}{Dec 2019 - Jun 2020}
+    {Visiting Deep Learning Research Intern}{Toulouse, France}
+        \resumeItemListStart
+            \resumeItem{Researched the influence of EEG on stimulus, stimulus on EEG, and EEG on EEG primarily for the occipital electrodes.}\resumeItem{Improved correlation value(r) by 13\% and improvised on the next 1 sec horizon time steps in comparison to the baseline models using state-of-the-art time series models.}
+            \resumeItem{Experimented the study; "In Alpha Oscillations strong perceptual echoes exist at 10Hz frequency" with various architectures - 1D CNN, LSTM, WaveNet, Conv-LSTM, ARIMA, and an ensemble of these models.}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\begin{comment}
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Gym Reservation Bot} $|$ \emph{Python, Selenium, Google Cloud Console}}{January 2021}
+          \resumeItemListStart
+            \resumeItem{Developed an automatic bot using Python and Google Cloud Console to register myself for a timeslot at my school gym.}
+            \resumeItem{Implemented Selenium to create an instance of Chrome in order to interact with the correct elements of the web page.}
+            \resumeItem{Created a Linux virtual machine to run on Google Cloud so that the program is able to run everyday from the cloud.}
+            \resumeItem{Used Cron to schedule the program to execute automatically at 11 AM every morning so a reservation is made for me.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Ticket Price Calculator App} $|$ \emph{Java, Android Studio}}{November 2020}
+          \resumeItemListStart
+            \resumeItem{Created an Android application using Java and Android Studio to calculate ticket prices for trips to museums in NYC.}
+            \resumeItem{Processed user inputted information in the back-end of the app to return a subtotal price based on the tickets selected.}
+            \resumeItem{Utilized the layout editor to create a UI for the application in order to allow different scenes to interact with each other.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Transaction Management GUI} $|$ \emph{Java, Eclipse, JavaFX}}{October 2020}
+          \resumeItemListStart
+            \resumeItem{Designed a sample banking transaction system using Java to simulate the common functions of using a bank account.}
+            \resumeItem{Used JavaFX to create a GUI that supports actions such as creating an account, deposit, withdraw, list all acounts, etc.}
+            \resumeItem{Implemented object-oriented programming practices such as inheritance to create different account types and databases.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+\end{comment}
+
+
+% -------------------- PUBLICATIONS ------------------
+\section{Publications}
+    \resumeSubHeadingListStart
+        \resumeSubheading{AxonDeepSeg: Automatic Myelin and Axon Segmentation Using Deep Learning}{July 2020}{(\href{https://cdn-akamai.6connex.com/645/1827//ohbm2020_boudreau_FINAL_15921677822526191.pdf}{LINK})}{OHBM 2020, Canada}
+ 
+        \resumeSubheading{High Dimensional Fuzzy Outlier Detection}{August 2019}{(\href{http://ajiips.com.au/papers/V16.1/v16n1_49-59.pdf}{LINK})}{ICONIP, Australia}
+
+
+        \resumeSubheading{A Fuzzy Constraint Based Method for Outlier Detection}{August 2019}{(\href{https://link.springer.com/chapter/10.1007/978-3-030-26766-7_47}{LINK})}{ICIC2019, China}
+
+
+    \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, Shell Script, HTML} \\
+     \textbf{Developer Tools}{: VS Code, Google Cloud Platform} \\
+     \textbf{Technologies/Frameworks}{: PyTorch, Keras, OpenCV, Git, Docker, GitHub, AWS, Linux, MacOS} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+%-----------INVOLVEMENT---------------
+\section{Achievements / Awards}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Vector Scholarship in Artificial Intelligence 2021}{September 2021}{Scholarship ({\href{https://vectorinstitute.ai/2021/05/10/newest-vector-ai-scholarship-recipients-join-growing-talent-pool-in-ontario/}{LINK}})}{Vector Institute and University of Toronto}
+        \resumeSubheading{Charpak Lab France Scholarship}{September 2020}{Award and Scholarship ({\href{https://www.inde.campusfrance.org/result-of-the-charpak-lab-scholarship-programme-2019}{LINK}})}{Government of France}
+        \resumeSubheading{Dean List of Academic Intelligence}{2016 -- 2020}{Award}{VIT University}
+        \resumeSubheading{Special Achiever Award}{2019}{Award (\href{https://www2.slideshare.net/secret/9CIVAk7yffpwUx}{LINK})}{VIT University}
+    \resumeSubHeadingListEnd
+
+
+
+\end{document}
