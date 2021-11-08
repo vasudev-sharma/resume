@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1636338304 "/Users/vasudevsharma/VScode/Projects/resume/main.tex" "/Users/vasudevsharma/VScode/Projects/resume/main.pdf" "main" 1636338305
-  "/Users/vasudevsharma/VScode/Projects/resume/main.aux" 1636338305 1353 41064df175505cca512b8bd04dcd34e1 ""
-  "/Users/vasudevsharma/VScode/Projects/resume/main.tex" 1636338296 10840 5dd76579bdd562f8d8e41ce1111e9864 ""
-  "/dev/null" 1636338305 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1636340364 "/Users/vasudevsharma/VScode/Projects/resume/main.tex" "/Users/vasudevsharma/VScode/Projects/resume/main.pdf" "main" 1636340365
+  "/Users/vasudevsharma/VScode/Projects/resume/main.aux" 1636340365 1353 41064df175505cca512b8bd04dcd34e1 ""
+  "/Users/vasudevsharma/VScode/Projects/resume/main.tex" 1636340362 10858 70787b59133ca1c668896f6005d6d90d ""
+  "/dev/null" 1636340346 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1518739736 2728 73d15a70f26cddbe53c2f14e387c2c80 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1548799917 2706 5a068b071b43eb3e1a87618c146f3c49 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -88,13 +88,13 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1561653966 4549464 e70ecd5fc6036afaca0d65061215f2ef ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1574698819 4264882 5ae2721182c1a82ae044719ca33b91ca ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "main.aux" 1636338305 1353 41064df175505cca512b8bd04dcd34e1 "pdflatex"
-  "main.out" 1636338305 297 d703cd2b535bb7388b878d0157b2a7f2 "pdflatex"
-  "main.tex" 1636338296 10840 5dd76579bdd562f8d8e41ce1111e9864 ""
+  "main.aux" 1636340365 1353 41064df175505cca512b8bd04dcd34e1 "pdflatex"
+  "main.out" 1636340365 297 d703cd2b535bb7388b878d0157b2a7f2 "pdflatex"
+  "main.tex" 1636340362 10858 70787b59133ca1c668896f6005d6d90d ""
   (generated)
-  "/Users/vasudevsharma/VScode/Projects/resume/main.pdf"
-  "main.pdf"
-  "main.log"
-  "main.aux"
   "main.out"
+  "main.log"
+  "/Users/vasudevsharma/VScode/Projects/resume/main.pdf"
   "/Users/vasudevsharma/VScode/Projects/resume/main.log"
+  "main.aux"
+  "main.pdf"
