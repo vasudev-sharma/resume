@@ -1,6 +1,6 @@
 %-------------------------
 % Resume in Latex
-% Author : Vasudev Sharma
+% Author : Jake Gutierrez
 % Based off of: https://github.com/sb2nov/resume
 % License : MIT
 %------------------------
@@ -25,6 +25,7 @@
 \setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
 \usepackage{verbatim}
+% \usepackage{fontawesome5}
 
 
 %----------FONT OPTIONS----------
@@ -137,7 +138,7 @@
 
 
 %-----------EDUCATION-----------
-\section{Education}
+\section{\faSchool \ Education}
   \resumeSubHeadingListStart
     \resumeSubheading
     {University Of Toronto}{Sep. 2021 -- Dec. 2022 (Expected)}
@@ -152,7 +153,7 @@
   \resumeSubHeadingListEnd
 
 %------RELEVANT COURSEWORK-------
-\section{Relevant Coursework}
+\section{\faChalkboardTeacher \ Relevant Coursework}
     %\resumeSubHeadingListStart
         \begin{multicols}{4}
             \begin{itemize}[itemsep=-10pt, parsep=15pt]
@@ -168,7 +169,7 @@
     %\resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
-\section{Experience}
+\section{\faBusinessTime \ Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
@@ -176,8 +177,8 @@
       {Teaching Assistant}{Toronto, Canada}
 
         % \resumeSubHeadingListStart
-        \resumeSubSubheading{\href{https://chanb.github.io/teaching/\#:~:text=Introduction\%20to\%20Machine\%20Learning\%20\%2D\%20CSCC11\%20(Winter\%202021)}{ CSCC11:Introduction to Machine Learning }}{Winter 2022}{}{}
-        \resumeSubSubheading{ \href{http://www.brianharrington.net/\#:~:text=I\%20am\%20currently\%20Teaching\%20CSCA08\%20\%2D\%20Introduction\%20to\%20Computer\%20Programming}{CSCA20: Introduction to programming }}{Fall 2021}{}{}
+        \resumeSubSubheading{\href{https://chanb.github.io/teaching/\#:~:text=Introduction\%20to\%20Machine\%20Learning\%20\%2D\%20CSCC11\%20(Winter\%202022)}{\faLink CSCC11:Introduction to Machine Learning }}{Winter 2022}{}{}
+        \resumeSubSubheading{ \href{http://www.brianharrington.net/\#:~:text=I\%20am\%20currently\%20Teaching\%20CSCA08\%20\%2D\%20Introduction\%20to\%20Computer\%20Programming}{\faLink CSCA20: Introduction to programming }}{Fall 2021}{}{}
     %   \resumeItemListStart
       
     %         \resumeSubItem{Led tutorials on introductory undergraduate level course on Python}
@@ -190,18 +191,20 @@
       {NeuroPoly, University of Montreal}{Nov. 2020 -- Aug. 2021}
       {Machine Learning Engineer}{Montreal, Quebec, Canada}
       \resumeItemListStart
-        \resumeItem {Developed an open source software     \href{https://github.com/neuropoly/axondeepseg}{AxonDeepSeg} - Axon / Myelin segmentation using Deep Learning.}
+        \resumeItem {Developed an open source software     \href{https://github.com/neuropoly/axondeepseg }{AxonDeepSeg \faGithub} - Axon / Myelin segmentation using Deep Learning.}
          \resumeItem {Implemented and integrated U-Net model for segmentation on Keras framework for histological data ( SEM and TEM).}
         \resumeItem {Fine-tuned models resulting in a performance gain of \textbf{5\%}, refactored \textbf{40\% codebase} and performed an exhaustive comparative analysis with state-of-art methods.}
         \resumeItem {Researched and incorporated dynamic functionality for handling overlapping patch effect on microscopy images}
     \resumeItemListEnd
+    
+
 
     \resumeSubheading
     {CNRS, CerCo lab}{Dec. 2019 - June 2020}
     {Visiting Deep Learning Research Intern}{Toulouse, France}
         \resumeItemListStart
             \resumeItem{Researched the influence of EEG on stimulus, stimulus on EEG, and EEG on EEG primarily for the occipital electrodes.}\resumeItem{Improved correlation value(r) by \textbf{13\%} and improvised on the next \textbf{1 sec horizon time steps} in comparison to the baseline models using state-of-the-art time series models.}
-            \resumeItem{Experimented the study; \textit{"In Alpha Oscillations strong perceptual echoes exist at 10Hz frequency"} with various architectures - 1D CNN, LSTM, WaveNet, Conv-LSTM, ARIMA, and an ensemble of these models. (\href{https://github.com/vasudev-sharma/DeepEEG-Forecast}{GitHub Repo})}
+            \resumeItem{Experimented the study; \textit{"In Alpha Oscillations strong perceptual echoes exist at 10Hz frequency"} with various architectures - 1D CNN, LSTM, WaveNet, Conv-LSTM, ARIMA, and an ensemble of these models.  \href{https://github.com/vasudev-sharma/DeepEEG-Forecast}{\faGithub}}
         \resumeItemListEnd
   \resumeSubHeadingListEnd
 \vspace{-16pt}
@@ -241,36 +244,36 @@
 
 
 % -------------------- PUBLICATIONS ------------------
-\section{Publications}
+\section{\faNewspaper \ Publications}
     \resumeSubHeadingListStart
-        \resumeSubheading{AxonDeepSeg: Automatic Myelin and Axon Segmentation Using Deep Learning}{July 2020}{(\href{https://www.humanbrainmapping.org/files/2020/OHBM_2020_Virtual_Abstracts_2.pdf\#page=104}{LINK})}{OHBM 2020, Canada}
+        \resumeSubheading{AxonDeepSeg: Automatic Myelin and Axon Segmentation Using Deep Learning}{July 2020}{(\href{https://www.humanbrainmapping.org/files/2020/OHBM_2020_Virtual_Abstracts_2.pdf\#page=104}{\faLink})}{OHBM 2020, Canada}
  
-        \resumeSubheading{High Dimensional Fuzzy Outlier Detection}{Aug. 2019}{(\href{http://ajiips.com.au/papers/V16.1/v16n1_49-59.pdf}{LINK})}{ICONIP2019, Australia}
+        \resumeSubheading{High Dimensional Fuzzy Outlier Detection}{Aug. 2019}{(\href{http://ajiips.com.au/papers/V16.1/v16n1_49-59.pdf}{\faLink})}{ICONIP2019, Australia}
 
 
-        \resumeSubheading{A Fuzzy Constraint Based Method for Outlier Detection}{Aug. 2019}{(\href{https://link.springer.com/chapter/10.1007/978-3-030-26766-7_47}{LINK})}{ICIC2019, China}
+        \resumeSubheading{A Fuzzy Constraint Based Method for Outlier Detection}{Aug. 2019}{(\href{https://link.springer.com/chapter/10.1007/978-3-030-26766-7_47}{\faLink})}{ICIC2019, China}
 
 
     \resumeSubHeadingListEnd
 
 %-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
+\section{\faLaptop \ Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Python, Shell Script, HTML} \\
-     \textbf{Developer Tools}{: VS Code, Google Cloud Platform} \\
-     \textbf{Technologies/Frameworks}{: PyTorch, NumPy, Scikit-learn, Pandas, Keras, OpenCV, Git, Docker, GitHub, AWS} \\
+     \textbf{\faLanguage \ Languages}{: Python, Shell Script, HTML} \\
+    \textbf{\faTools \ Developer Tools}{: VS Code, Google Cloud Platform} \\
+     \textbf{\faToolbox \ Technologies/Frameworks}{: PyTorch, NumPy, Scikit-learn, Pandas, Keras, OpenCV, Git, Docker, GitHub, AWS} \\
     }}
  \end{itemize}
  \vspace{-16pt}
 
 %-----------INVOLVEMENT---------------
-\section{Achievements / Awards}
+\section{\faAward \ Achievements / Awards}
     \resumeSubHeadingListStart
-        \resumeSubheading{Vector Scholarship in Artificial Intelligence 2021}{Sept. 2021}{Scholarship ({\href{https://vectorinstitute.ai/2021/05/10/newest-vector-ai-scholarship-recipients-join-growing-talent-pool-in-ontario/\#:~:text=Pokhrel\%2C\%20Aslesha-,Sharma\%2C\%20Vasudev,-LeMesurier\%2C\%20Carey}{LINK}})}{Vector Institute and University of Toronto}
-        \resumeSubheading{Charpak Lab France Scholarship}{Sept. 2020}{Award and Scholarship ({\href{https://www.inde.campusfrance.org/result-of-the-charpak-lab-scholarship-programme-2019\#:~:text=12,Toulouse}{LINK}})}{Government of France}
+        \resumeSubheading{Vector Scholarship in Artificial Intelligence 2021}{Sept. 2021}{Scholarship ({\href{https://vectorinstitute.ai/2021/05/10/newest-vector-ai-scholarship-recipients-join-growing-talent-pool-in-ontario/\#:~:text=Pokhrel\%2C\%20Aslesha-,Sharma\%2C\%20Vasudev,-LeMesurier\%2C\%20Carey}{\faLink}})}{Vector Institute and University of Toronto}
+        \resumeSubheading{Charpak Lab France Scholarship}{Sept. 2020}{Award and Scholarship ({\href{https://www.inde.campusfrance.org/result-of-the-charpak-lab-scholarship-programme-2019\#:~:text=12,Toulouse}{\faLink}})}{Government of France}
         % \resumeSubheading{Dean List of Academic Intelligence}{2016 -- 2020}{Award}{VIT University}
-        \resumeSubheading{Special Achiever Award}{2019}{Award (\href{https://www2.slideshare.net/secret/9CIVAk7yffpwUx}{LINK})}{VIT University}
+        \resumeSubheading{Special Achiever Award}{2019}{Award (\href{https://www2.slideshare.net/secret/9CIVAk7yffpwUx}{\faLink})}{VIT University}
     \resumeSubHeadingListEnd
 
 
