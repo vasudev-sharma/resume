@@ -1,4 +1,3 @@
-# resume
-Private repo of the latex version of the resume's
+# Resume
 
-Inspired from [this](https://github.com/sb2nov/resume) repo.
+The resume has been inspired from [this](https://github.com/sb2nov/resume) repo. Please attribute the source repositories accordingly. 
