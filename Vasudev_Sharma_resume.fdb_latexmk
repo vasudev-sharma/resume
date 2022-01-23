@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1642267425 "/Users/vasudevsharma/VScode/Projects/resume/Vasudev_Sharma_resume.tex" "/Users/vasudevsharma/VScode/Projects/resume/Vasudev_Sharma_resume.pdf" "Vasudev_Sharma_resume" 1642267427
-  "/Users/vasudevsharma/VScode/Projects/resume/Vasudev_Sharma_resume.aux" 1642267426 1444 2016322f119176c530b6befc895815f7 ""
-  "/Users/vasudevsharma/VScode/Projects/resume/Vasudev_Sharma_resume.tex" 1642267422 12498 8d12f3cd36f3bf5ca8f0ff4b6fa6ff83 ""
-  "/dev/null" 1642267426 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1642923933 "/Users/vasudevsharma/VScode/Projects/resume/Vasudev_Sharma_resume.tex" "/Users/vasudevsharma/VScode/Projects/resume/Vasudev_Sharma_resume.pdf" "Vasudev_Sharma_resume" 1642923935
+  "/Users/vasudevsharma/VScode/Projects/resume/Vasudev_Sharma_resume.aux" 1642923934 1549 66951510ea4839f61f2e39d3bd501e01 ""
+  "/Users/vasudevsharma/VScode/Projects/resume/Vasudev_Sharma_resume.tex" 1642923931 12391 7cf0f9b0cc46395d0b35eeaf038009cd ""
+  "/dev/null" 1642923931 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1518739736 2728 73d15a70f26cddbe53c2f14e387c2c80 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1548799917 2706 5a068b071b43eb3e1a87618c146f3c49 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1548799917 3227 ef33c08403eaa2a671137743f2d3c217 ""
@@ -39,6 +39,7 @@
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
+  "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb" 1248133631 35660 fb24af7afbadb71801619f1415838111 ""
@@ -100,13 +101,13 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1561653966 4549464 e70ecd5fc6036afaca0d65061215f2ef ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1574698819 4264882 5ae2721182c1a82ae044719ca33b91ca ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "Vasudev_Sharma_resume.aux" 1642267426 1444 2016322f119176c530b6befc895815f7 "pdflatex"
-  "Vasudev_Sharma_resume.out" 1642267426 303 e7b7ccc96862760cec9d8c3e11d21239 "pdflatex"
-  "Vasudev_Sharma_resume.tex" 1642267422 12498 8d12f3cd36f3bf5ca8f0ff4b6fa6ff83 ""
+  "Vasudev_Sharma_resume.aux" 1642923934 1549 66951510ea4839f61f2e39d3bd501e01 "pdflatex"
+  "Vasudev_Sharma_resume.out" 1642923934 346 1fb0d630376ac6d38cd61d2f4d26912d "pdflatex"
+  "Vasudev_Sharma_resume.tex" 1642923931 12391 7cf0f9b0cc46395d0b35eeaf038009cd ""
   (generated)
+  "Vasudev_Sharma_resume.pdf"
   "Vasudev_Sharma_resume.out"
   "/Users/vasudevsharma/VScode/Projects/resume/Vasudev_Sharma_resume.pdf"
   "/Users/vasudevsharma/VScode/Projects/resume/Vasudev_Sharma_resume.log"
-  "Vasudev_Sharma_resume.pdf"
   "Vasudev_Sharma_resume.log"
   "Vasudev_Sharma_resume.aux"
